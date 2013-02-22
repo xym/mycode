@@ -22,4 +22,4 @@
 这里有一篇文章专门讲述了这个问题: http://blog.csdn.net/tianlesoftware/article/details/6459044
 
 我也画了一个图：
-![](images/linux_free.jpg?raw=true)
+![](images/linux_free.jpg)
