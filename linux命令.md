@@ -1,6 +1,9 @@
 #linux 命令
-##系统命令
-* __free__
+
+# __free__
+
+----------
+
 
 用法： 
  ` free -m `
@@ -23,3 +26,27 @@
 
 我也画了一个图：
 ![](../../../image/blob/master/linux_free.jpg?raw=true)
+
+
+#__tr__命令 
+
+----------
+
+tr用来从标准输入中通过替换或删除操作进行字符转换。 tr主要用于删除文件中控制字符或进行字符转换。
+特别要注意一点：tr *只能进行字符的**替换、缩减和删除**，不能用来替换字符串*。
+
+-  转为大小写
+>cat oops.txt | tr "[a-z]" "[A-Z]" > result.txt
+
+- 删除空行
+>cat file | tr -s "\n" > new_file
+ 
+- 删除Windows文件“造成”的'^M'字符
+>cat file | tr -d "\r" > new_file
+
+或者
+
+>cat file | tr -s "\r" "\n" > new_file
+
+
+
