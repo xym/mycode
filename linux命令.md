@@ -48,5 +48,17 @@ tr用来从标准输入中通过替换或删除操作进行字符转换。 tr主
 
 >cat file | tr -s "\r" "\n" > new_file
 
+# __fold__命令
+
+----------
+
+>fold -w Width 以变量 Width 的值指定最大行宽。缺省值为 80。 
+
+这个命令的作用是可以把长行进行拆分：
+
+    fold -w 80 test.txt > test.bak
+    
+ 
+
 
 
