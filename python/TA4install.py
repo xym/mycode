@@ -249,8 +249,8 @@ def createubb():
     filehd.write("        DOMAINID   " + gusername + "\n");
     filehd.write("        MASTER                  taserver \n");
     filehd.write("        MAXACCESSERS    50 \n");
-    filehd.write("        MAXSERVERS      50 \n");
-    filehd.write("        MAXSERVICES     80 \n");
+    filehd.write("        MAXSERVERS      300 \n");
+    filehd.write("        MAXSERVICES     300 \n");
     filehd.write("        MODEL           SHM \n");
     filehd.write("        LDBAL           N \n");
     filehd.write("*MACHINES \n");
