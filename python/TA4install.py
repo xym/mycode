@@ -835,7 +835,7 @@ def createshell():
     filename=filepath+"/mybin" +"/rmalldotfile.sh"
     filehd=open(filename,'wb')
     filehd.write('#!/bin/bash\n')
-    filehd.write('rm ~/tmp/*.o \n')
+    filehd.write('rm ~/tmp/*.o  1>/dev/null 2>/dev/null \n')
     filehd.close()
 
     filename=filepath+"/mybin" +"/rlog.sh"
