@@ -248,7 +248,7 @@ def createubb():
     filehd.write("        IPCKEY                  52769 \n");
     filehd.write("        DOMAINID   " + gusername + "\n");
     filehd.write("        MASTER                  taserver \n");
-    filehd.write("        MAXACCESSERS    50 \n");
+    filehd.write("        MAXACCESSERS    300 \n");
     filehd.write("        MAXSERVERS      300 \n");
     filehd.write("        MAXSERVICES     300 \n");
     filehd.write("        MODEL           SHM \n");
