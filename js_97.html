@@ -1,0 +1,23 @@
+<!--给定字符串 str，检查其是否包含 连续3个数字
+1、如果包含，返回最新出现的 3 个数字的字符串
+2、如果不包含，返回 false-->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>xiaym的js演示程序</title>
+</head>
+<body>
+<script>
+    function captureThreeNumbers(str) {
+        return /\d{3,}/.test(str);
+    }
+
+    document.write('abc1234cc' + "<br>");
+    document.write(captureThreeNumbers('abc1234cc')+ "<br>")
+    document.write('1800' + "<br>");
+    document.write(captureThreeNumbers('1800')+ "<br>")
+
+</script>
+</body>
+</html>
